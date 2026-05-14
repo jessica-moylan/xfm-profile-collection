@@ -2,7 +2,7 @@ import nslsii
 
 nslsii.configure_base(get_ipython().user_ns, 
         'xfm',
-        publish_documents_with_kafka=True)
+        publish_documents_with_kafka=False)
 
 #nslsii.configure_olog(get_ipython().user_ns)
 
